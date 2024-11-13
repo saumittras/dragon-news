@@ -7,7 +7,7 @@ const Header = () => {
       <div className="logo pt-5 pb-4">
         <img className="w-[400px] h-16" src={logo} alt="" />
       </div>
-      <h2 className="text-[#706F6F] text-lg font-normal">
+      <h2 className="text-[#706F6F] text-lg font-normal font-poppins">
         Journalism Without Fear or Favour
       </h2>
       <p className="text-xl font-medium">

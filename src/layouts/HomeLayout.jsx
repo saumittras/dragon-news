@@ -4,14 +4,14 @@ import LatestNews from "../components/LatestNews";
 
 const HomeLayout = () => {
   return (
-    <div>
+    <div className="font-poppins">
       <header>
         <Header></Header>
         <section className="w-11/12 mx-auto">
           <LatestNews></LatestNews>
         </section>
       </header>
-      <nav>
+      <nav className="w-11/12 mx-auto">
         <Navbar></Navbar>
       </nav>
       <main></main>
