@@ -1,9 +1,17 @@
 import React from "react";
+import SocalLogin from "../SocalLogin";
+import SocalLink from "../SocalLink";
 
 const RightNavbar = () => {
   return (
     <div>
-      <h2>Hello from right navbar section</h2>
+      <div>
+        <SocalLogin></SocalLogin>
+      </div>
+
+      <div>
+        <SocalLink></SocalLink>
+      </div>
     </div>
   );
 };
